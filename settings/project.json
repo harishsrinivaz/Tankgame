@@ -1,0 +1,93 @@
+{
+  "group-list": [
+    "default",
+    "Player",
+    "playerBullet",
+    "Enemy",
+    "Defense_Box",
+    "Wall",
+    "enemyBullet"
+  ],
+  "collision-matrix": [
+    [
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      null,
+      null,
+      null,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      null,
+      true
+    ],
+    [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "3D Physics/Builtin"
+  ],
+  "preview-port": 7456,
+  "design-resolution-width": 960,
+  "design-resolution-height": 640,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": false,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "height": 640,
+    "width": 960
+  },
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "last-module-event-record-time": 1598884106610
+}
